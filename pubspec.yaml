@@ -30,6 +30,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+    
+  flutter_speed_dial:
+  unicorndial: ^1.1.5
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -74,7 +77,15 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
+  fonts:
+      - family: Helvetica
+        fonts:
+          - asset: fonts/HelveticaNeueLTPro-Blk.otf
+            weight: 700
+          - asset: fonts/HelveticaNeueLTPro-Th.otf
+            weight: 100
+          - asset: fonts/HelveticaNeueLTPro-Roman.otf
+            weight: 300
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
